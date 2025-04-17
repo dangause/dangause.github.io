@@ -18,6 +18,12 @@ pagination:
 
 <div class="post">
 
+  <div class="container" style="text-align: center;">
+    <img src="/assets/img/dangalaxy.png" alt="Dan Galaxy" alt="Dangalaxy" style="width: 50%; max-width: 300px;"/>
+  </div>
+
+
+
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
