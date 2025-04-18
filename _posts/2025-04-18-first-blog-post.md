@@ -5,6 +5,7 @@ date: 2025-04-18 09:40:16
 description: Welcome to Dan Galaxy...
 tags: intro
 categories: posts
+featured: true
 ---
 
 
