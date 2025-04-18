@@ -19,7 +19,7 @@ pagination:
 <div class="post">
 
   <div class="container" style="text-align: center;">
-    <img src="/assets/img/dangalaxy.png" alt="Dan Galaxy" alt="Dangalaxy" style="width: 50%; max-width: 300px;"/>
+    <img src="/assets/img/dangalaxy.png" alt="Dan Galaxy" alt="Dangalaxy" style="width: 25%; max-width: 300px;"/>
   </div>
 
 
