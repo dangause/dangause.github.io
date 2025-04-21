@@ -53,51 +53,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-expedition-clustering",
+          title: 'expedition clustering',
+          description: "Using unsupervised learning techniques to recreate expedition clusters from archival museum collections data",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/expedition_clustering/";
+            },},{id: "projects-hyperspectral-biodiversity",
+          title: 'hyperspectral biodiversity',
+          description: "A CAS research project predicting local species absence of pine trees using hyperspectral remote sensing data and machine learning.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/hyperspectral_biodiversity_project/";
+            },},{id: "projects-lsst-science-pipelines-adaptation",
+          title: 'lsst science pipelines adaptation',
+          description: "Adapting the LSST Science Pipelines to Lick&#39;s Nickel Telescope",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/lsst_nickel/";
+            },},{id: "projects-nickel-reduction-tutorial",
+          title: 'nickel reduction tutorial',
+          description: "Creating an educational tutorial walking through the image reduction process for the Nickel telescope",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/nickel_reduction_tutorial/";
+            },},{id: "projects-rock-daisies",
+          title: 'rock daisies',
+          description: "Creating visualizations for a CAS botany research project looking at endemic rock daisy species living on sky islands in North America.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/rock_daisies/";
             },},{
         id: 'social-email',
         title: 'email',
