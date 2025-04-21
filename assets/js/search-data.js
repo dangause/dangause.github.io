@@ -58,6 +58,11 @@ ninja.data = [{
           description: "A quasar specific question answering tool",
           section: "Projects",handler: () => {
               window.location.href = "/projects/astro_buddy/";
+            },},{id: "projects-cataclysmic-variables",
+          title: 'cataclysmic variables',
+          description: "An obervational research project to study cataclysmic variables at the City College of San Francisco.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ccsf_cv/";
             },},{id: "projects-expedition-clustering",
           title: 'expedition clustering',
           description: "Using unsupervised learning techniques to recreate expedition clusters from archival museum collections data",
