@@ -53,6 +53,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-astro-buddy",
+          title: 'astro buddy',
+          description: "A quasar specific question answering tool",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/astro_buddy/";
             },},{id: "projects-expedition-clustering",
           title: 'expedition clustering',
           description: "Using unsupervised learning techniques to recreate expedition clusters from archival museum collections data",
@@ -73,6 +78,11 @@ ninja.data = [{
           description: "Creating an educational tutorial walking through the image reduction process for the Nickel telescope",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nickel_reduction_tutorial/";
+            },},{id: "projects-balqso-cnn-classifier",
+          title: 'BALQSO CNN classifier',
+          description: "A broad absorption line quasar convolutional neural network classifier",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/qso_classifier/";
             },},{id: "projects-rock-daisies",
           title: 'rock daisies',
           description: "Creating visualizations for a CAS botany research project looking at endemic rock daisy species living on sky islands in North America.",
