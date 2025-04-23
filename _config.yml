@@ -7,7 +7,7 @@ first_name: Daniel
 middle_name:
 last_name: Gause
 contact_note: >
-  Email me, check out my repos, or follow add me on LinkedIn. I'm always open to new opportunities and collaborations.
+  Email me, check out my repos, or add me on LinkedIn. I'm always open to new opportunities and collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
