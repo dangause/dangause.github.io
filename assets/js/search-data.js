@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-first-blog-post",
+        },{id: "post-hyperspectral-101",
+        
+          title: "Hyperspectral 101",
+        
+        description: "An introduction to hyperspectral imagery",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hyperspectral-101/";
+          
+        },
+      },{id: "post-first-blog-post",
         
           title: "First Blog Post",
         
