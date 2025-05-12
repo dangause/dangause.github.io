@@ -15,3 +15,23 @@ The backend regularly ingests the 100 most recent arXiv papers that mention “q
 The frontend is deployed on Vercel, while the backend and vector database are hosted separately on Render. The entire system is modular and extensible—I plan to expand it to support other astronomy topics and add dynamic visual components over time.
 
 You can try it out live here: [https://astro-buddy.dangause.com/](https://astro-buddy.dangause.com/)
+
+Here are some images of what the web app looks like, and the quality of answer it returns.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_posts/astro-buddy-05122025/astrobuddy-home.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Astro buddy home page
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_posts/astro-buddy-05122025/astrobuddy-answer.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Astro buddy question-answer
+</div>
