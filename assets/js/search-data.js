@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-hyperspectral-101",
+        },{id: "post-building-astro-buddy",
+        
+          title: "building astro buddy",
+        
+        description: "How I turned past work into a live, full-stack web app",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/astro-buddy/";
+          
+        },
+      },{id: "post-hyperspectral-101",
         
           title: "Hyperspectral 101",
         
