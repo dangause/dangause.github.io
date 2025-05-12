@@ -10,7 +10,7 @@ related_publications: false
 
 I originally started working on arXiv-based retrieval pipelines while experimenting with LangChain and vector databases to help with my own astronomy research. At the time, the goal was just to load and embed recent quasar-related PDFs, then run semantic queries over them to explore if RAG could surface relevant references. I had the ingestion code working locally, but nothing interactive or deployable.
 
-Fast-forward to now: I’ve turned that offline tooling into a complete, publicly available web app called **Astro Buddy**, accessible at [https://astro-buddy.vercel.app](https://astro-buddy.vercel.app). It’s designed to answer open-ended questions about quasars using a custom document retrieval system I built from scratch.
+Fast-forward to now: I’ve turned that offline tooling into a complete, publicly available web app called **Astro Buddy**, accessible at [https://astro-buddy.dangause.com/](https://astro-buddy.dangause.com/). It’s designed to answer open-ended questions about quasars using a custom document retrieval system I built from scratch.
 
 The stack came together in layers:
 

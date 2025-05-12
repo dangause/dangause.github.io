@@ -14,4 +14,4 @@ The backend regularly ingests the 100 most recent arXiv papers that mention “q
 
 The frontend is deployed on Vercel, while the backend and vector database are hosted separately on Render. The entire system is modular and extensible—I plan to expand it to support other astronomy topics and add dynamic visual components over time.
 
-You can try it out live here: [https://astro-buddy.vercel.app](https://astro-buddy.vercel.app)
+You can try it out live here: [https://astro-buddy.dangause.com/](https://astro-buddy.dangause.com/)
