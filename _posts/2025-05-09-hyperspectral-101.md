@@ -27,10 +27,10 @@ Where an RGB image records the intensity of light in three bands (red, green, bl
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/hsi-spectrum.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/blog_posts/hs-101-05092025/hsi-spectrum.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/rgb-ms-hsi.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="/assets/img/blog_posts/hs-101-05092025/rgb-ms-hsi.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -52,6 +52,14 @@ IFS captures spectral variability across an entire image, so is especially usefu
 RS HSI has applications in defense and security (material-specific surveillance and explosive detection), geology and mining (mineral exploration), and urban planning (land cover/use classification). The applications of more direct interest in this blog post are centered around environmental and Earth science. RS HSI has been used to track vegetation health and species mapping, water quality monitoring (algae blooms, pollution), and natural hazard response. In lieu of the widespread fires in LA, wildfire detection has been of heightened recent interest.
 
 In relation to my [hyperspectral biodiversity project]({{ site.baseurl }}/projects/hyperspectral_biodiversity_project), phenological types, genera, and in some cases individual species can be identified from their spectra alone. In an upcoming blog post, I will summarize the complexities and challenges inherent to this idea called *spectral species*. For now, the reader should be content with the knowledge of the breadth of fields in which RS HSI has applications.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/blog_posts/hs-101-05092025/hsi-rs.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<br>
 
 ##### **Where can we get RS HSI data?**
 
