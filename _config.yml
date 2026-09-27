@@ -7,14 +7,13 @@ first_name: Daniel
 middle_name:
 last_name: Gause
 contact_note: >
-  Email me, check out my repos, or add me on LinkedIn. I'm always open to new opportunities and collaborations.
+  For astronomy-related communication, email me at <a href="mailto:dgause@nrao.edu">dgause@nrao.edu</a>. Otherwise, email me, check out my repos, or add me on LinkedIn. I'm planning to apply to astronomy PhD programs and am always open to new collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Daniel Gause is a post-baccalaureate researcher at the National Radio Astronomy Observatory studying protostellar outflows.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: astronomy, radio astronomy, star formation, protostellar outflows, data science, machine learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: astrobuddy_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -171,6 +170,7 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - cv/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -184,7 +184,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -253,16 +252,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["astro", "hsi", "biodiversity", "intro"] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Gause]
+  first_name: [Daniel, Dan, D.]
 
   style: apa
   locale: en
@@ -630,6 +629,7 @@ jsonresume:
   - basics
   - work
   - education
+  - presentations
   - publications
   - projects
   - volunteer

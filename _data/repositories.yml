@@ -4,7 +4,21 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - dangause/hrs-botany
-  - dangause/astro-buddy
-  - dangause/qso-cv
-  - dangause/expedition-clustering
+  - name: dangause/manna
+    language: Python
+    description: An MCP server that lets AI assistants query astronomical archives, including NOIRLab Astro Data Lab, NRAO/ALMA, CADC, ESO, and Gaia.
+  - name: dangause/stips
+    language: Python
+    description: The Small Telescope Image Processing Suite, an interface to the LSST Science Pipelines for 1-meter class telescopes.
+  - name: dangause/hrs-botany
+    language: Jupyter Notebook
+    description: Predicting where tree species are absent using hyperspectral satellite imagery, for a California Academy of Sciences research project.
+  - name: dangause/astro-buddy
+    language: Python
+    description: A question-answering web app for quasar research, built on recent arXiv papers.
+  - name: dangause/qso-cv
+    language: Jupyter Notebook
+    description: Data preparation and baseline models for classifying broad absorption line quasars in SDSS spectra.
+  - name: dangause/expedition-clustering
+    language: Jupyter Notebook
+    description: Grouping museum botanical specimens back into the collecting expeditions they came from.
