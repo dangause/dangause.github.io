@@ -5,9 +5,13 @@ description: Using unsupervised learning techniques to recreate expedition clust
 img: assets/img/expedition_clustering_plot.png
 importance: 3
 category: CAS
-related_publications: true
+related_publications: false
 ---
 
-The Expedition Clustering project aims to analyze and organize botanical specimen collection data by identifying and grouping individual specimens into their respective expeditions. While our dataset contains extensive information on over a million specimens, their association with specific collection expeditions is often unclear. Understanding these connections will improve data organization, enable better summarization, and support the development of interactive, narrative-based tools for both scientists and educators.
+The California Academy of Sciences holds records for over a million botanical specimens, but it's often unclear which collecting expedition each one came from. The Expedition Clustering project groups individual specimens back into their expeditions, which makes the collection easier to organize, summarize, and explore.
 
-By clustering specimens based on collection patterns, locations, collector information, and dates, this project will provide deeper insights into historical and modern botanical expeditions. These insights will facilitate research, highlight under-sampled regions, and help build engaging visualizations for storytelling and scientific analysis.
+The approach clusters specimens by where and when they were collected and who collected them. Specimens gathered close together in space and time, by the same people, most likely came from the same trip. Knowing this helps researchers trace historical and modern expeditions, highlights regions that have been under-sampled, and supports maps and visualizations for storytelling and teaching.
+
+I worked on this as a volunteer with the Academy's Scientific Computing Department from 2024 to 2026.
+
+- Code: [github.com/dangause/expedition-clustering](https://github.com/dangause/expedition-clustering)

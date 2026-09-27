@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: post
 title: building astro buddy
+date: 2025-05-12 09:00:00
 description: How I turned past work into a live, full-stack web app
-img: assets/img/astrobuddy.png
-importance: 1
-category: personal
-related_publications: false
+tags: astro
+categories: posts
 ---
 
 I originally started working on arXiv-based retrieval pipelines while experimenting with LangChain and vector databases to help with my own astronomy research. At the time, the goal was just to load and embed recent quasar-related PDFs, then run semantic queries over them to explore if RAG could surface relevant references. I had the ingestion code working locally, but nothing interactive or deployable.

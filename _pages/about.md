@@ -3,12 +3,16 @@ layout: about
 title: about
 permalink: /
 subtitle: >
+  Post-baccalaureate Researcher, <a href="https://public.nrao.edu/">National Radio Astronomy Observatory</a>
 
 profile:
   align: right
   image: dpg_headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>National Radio Astronomy Observatory</p>
+    <p>Charlottesville, VA</p>
+    <p><a href="mailto:dgause@nrao.edu">dgause@nrao.edu</a></p>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -25,8 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Daniel Gause is a data scientist and aspiring astrophysicist with a background in physics and mathematics from Middlebury College. As an undergraduate, he researched high-redshift dual quasars, sparking a lasting interest in galaxy evolution. He has since spent four years building machine learning models and data pipelines across healthcare, defense, and science.
+Daniel Gause is a post-baccalaureate researcher at the National Radio Astronomy Observatory (NRAO) in Charlottesville, Virginia. He studies protostellar outflows, the jets and winds that young stars launch as they form, by combining archival observations from ALMA, the VLA, and the Hubble Space Telescope.
 
-His work focuses on applying machine learning to astrophysical problems, including quasar classification, survival modeling, and clustering large-scale datasets. He’s also exploring remote sensing and ecological modeling to study biodiversity and planetary systems. Across fields, he looks for elegant ways to extract insight from complex data.
+He first came to NRAO in the summer of 2026 as an intern with the NSF-Simons AI Institute for Cosmic Origins (CosmicAI), where he built [MANNA](/projects/manna/), an open-source tool that lets AI assistants search professional astronomy archives directly. He is also the lead developer of [STIPS](/projects/stips/), a software package built with UC Observatories that brings the Rubin Observatory's image processing software to 1-meter class telescopes, which he presented at the 248th meeting of the American Astronomical Society.
 
-Daniel is currently a Research Associate at the California Academy of Sciences, using hyperspectral data to map gaps in global plant collections. He also works on adapting LSST pipelines for the Nickel Telescope at Lick Observatory. He’s driven by curiosity, clean code, and a passion for interdisciplinary science.
+Before moving into astronomy full time, Daniel spent five years at Accenture Federal Services building machine learning systems for federal agencies, and volunteered with the Scientific Computing Department at the California Academy of Sciences. He holds a BA in physics and mathematics from Middlebury College, where he searched Hubble archival data for dual quasars. He plans to apply to astronomy PhD programs.

@@ -15,7 +15,7 @@ This blog will contain all the things that I’ve been working on or thinking ab
 
 - project update
 - paper summary
-- software exploartion
+- software exploration
 - opinion piece
 
 <hr>
@@ -28,11 +28,11 @@ Right now my projects fall into two fields – **astronomy** and **botany**.
 
 I'm helping develop a custom data reduction pipeline for Lick Observatory's Nickel Telescope in python, and creating some accompanying tutorial materials. Additionally, I'm looking into adapting the LSST Science Pipelines to our Nickel telescope, or, rather *swatting flies with a sledgehammer*. The reasoning behind this choice will be wrung out in a later blog post.
 
-At CCSF I'm participating in a long-term observational research project with Professor Claia Bryja looking at cataclysmic variable stars. Every few months we spend a weekend using a Lick telescope to capture a (growing) list of CVs, which we intend to study once we have enough data. This projet depends directly on the Nickel pipeline development effort.
+At CCSF I'm participating in a long-term observational research project with Professor Claia Bryja looking at cataclysmic variable stars. Every few months we spend a weekend using a Lick telescope to capture a (growing) list of CVs, which we intend to study once we have enough data. This project depends directly on the Nickel pipeline development effort.
 
 **Botany** has been a fun research tangent separate from astronomy that has grown out of my volunteering at the California Academy of Sciences. I currently am entertaining a few workstreams here, which I have every intention of letting grow!
 
-My principle effort is a research project predicting local species absence using hyperspectral remote sensing data. The goal behind this is to supplement presence-only collections based datasets with this absence data to create presence-absence datasets. This will greatly increase the predictive power of museum collections records or GBIF observation datasets, broadening their use in estimating biodiversity metrics.
+My principal effort is a research project predicting local species absence using hyperspectral remote sensing data. The goal behind this is to supplement presence-only collections based datasets with this absence data to create presence-absence datasets. This will greatly increase the predictive power of museum collections records or GBIF observation datasets, broadening their use in estimating biodiversity metrics.
 
 I'm also engaged on another botany project at CAS doing some mapping visualization work for a resident postdoc on rock daisies.
 
@@ -60,7 +60,7 @@ And finally, I, like many of you, have opinions on things from time to time. I'l
 
 And all that being said, I won't be bound too tightly to anything, and we'll see where it goes!
 
-> Notions and scruples were like spilt needles, madking one afraid of treading, or sitting down, or even eating.
+> Notions and scruples were like spilt needles, making one afraid of treading, or sitting down, or even eating.
 > - George Eliot, *Middlemarch*
 
 I'll also do my best to stay away from generative AI to save water and my cognition but not time.
