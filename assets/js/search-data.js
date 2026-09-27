@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research and software projects in astronomy, botany, and data science.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -70,19 +70,14 @@ ninja.data = [{
             window.location.href = "/blog/2025/first-blog-post/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-astro-buddy",
+      },{id: "projects-astro-buddy",
           title: 'astro buddy',
           description: "A quasar specific question answering tool",
           section: "Projects",handler: () => {
               window.location.href = "/projects/astro_buddy/";
             },},{id: "projects-cataclysmic-variables",
           title: 'cataclysmic variables',
-          description: "An obervational research project to study cataclysmic variables at the City College of San Francisco.",
+          description: "An observational research project to study cataclysmic variables at the City College of San Francisco.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ccsf_cv/";
             },},{id: "projects-expedition-clustering",
@@ -92,29 +87,39 @@ ninja.data = [{
               window.location.href = "/projects/expedition_clustering/";
             },},{id: "projects-hyperspectral-biodiversity",
           title: 'hyperspectral biodiversity',
-          description: "A CAS research project predicting local species absence of pine trees using hyperspectral remote sensing data and machine learning.",
+          description: "A CAS research project predicting where tree species are absent, using hyperspectral satellite imagery and machine learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hyperspectral_biodiversity_project/";
-            },},{id: "projects-lsst-science-pipelines-adaptation",
-          title: 'lsst science pipelines adaptation',
-          description: "Adapting the LSST Science Pipelines to Lick&#39;s Nickel Telescope",
+            },},{id: "projects-manna",
+          title: 'MANNA',
+          description: "Letting AI assistants search professional astronomy archives",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/lsst_nickel/";
+              window.location.href = "/projects/manna/";
             },},{id: "projects-nickel-reduction-tutorial",
           title: 'nickel reduction tutorial',
           description: "Creating an educational tutorial walking through the image reduction process for the Nickel telescope",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nickel_reduction_tutorial/";
-            },},{id: "projects-balqso-cnn-classifier",
-          title: 'BALQSO CNN classifier',
-          description: "A broad absorption line quasar convolutional neural network classifier",
+            },},{id: "projects-protostellar-outflows",
+          title: 'protostellar outflows',
+          description: "A multiwavelength look at the jets and winds of forming stars, using archival data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/protostellar_outflows/";
+            },},{id: "projects-balqso-classifier",
+          title: 'BALQSO classifier',
+          description: "Spotting broad absorption line quasars in Sloan Digital Sky Survey spectra with machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/qso_classifier/";
             },},{id: "projects-rock-daisies",
           title: 'rock daisies',
-          description: "Creating visualizations for a CAS botany research project looking at endemic rock daisy species living on sky islands in North America.",
+          description: "Mapping where rock daisies grow across North America for a CAS botany research project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rock_daisies/";
+            },},{id: "projects-stips",
+          title: 'STIPS',
+          description: "The Small Telescope Image Processing Suite, bringing Rubin Observatory&#39;s software to 1-meter class telescopes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stips/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -135,6 +140,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/daniel-gause-b48633174", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0004-8062-3810", "_blank");
         },
       },{
       id: 'light-theme',
