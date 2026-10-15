@@ -45,8 +45,9 @@
       "endDate": "Present",
       "summary": "Advisor: Adele Plunkett",
       "highlights": [
-        "Conducting a multiwavelength study of protostellar outflows using archival data from ALMA, the VLA, and the Hubble Space Telescope",
-        "Continuing development of MANNA, with a deployment on the NOIRLab Astro Data Lab in internal testing"
+        "Compiling lists of nearby (<500 pc) Class 0/I protostars and Herbig–Haro objects from published catalogs",
+        "Building a tested Python pipeline that harvests ALMA, MAST, NOIRLab, and other archive holdings and tags spectral-line coverage per target",
+        "Identifying targets with multi-epoch observations suited to jet kinematics and proper motions"
       ]
     },
     {
@@ -57,8 +58,9 @@
       "startDate": "2026-05",
       "endDate": "2026-08",
       "highlights": [
-        "Built MANNA, an open-source MCP server that exposes the NOIRLab and NRAO/ALMA data archives to natural-language queries through IVOA standards (TAP, SIA, Cone Search)",
-        "Served a self-hosted open-weights LLM (vLLM) on local GPUs and integrated it into the observatory's notebook platform (jupyter-ai)"
+        "Built MANNA, an open-source MCP server that lets AI assistants query astronomical data archives via IVOA standards; released on PyPI and the MCP Registry",
+        "Assessed MCP performance across multiple LLMs with a custom evaluation framework; with MANNA, models ran up to 8.1× faster at up to 6.7× lower cost",
+        "Deployed open-weight LLMs on NOIRLab Astro Data Lab GPUs and integrated the Astro Data Lab JupyterHub with jupyter-ai"
       ]
     },
     {
@@ -68,9 +70,9 @@
       "startDate": "2024-12",
       "endDate": "Present",
       "highlights": [
-        "First author and lead developer of STIPS, the Small Telescope Image Processing Suite, an open-source pipeline that wraps the Rubin/LSST Science Pipelines for 1-m telescopes: instrument signature removal, difference imaging, coadd-template generation, and forced photometry",
-        "Validated against published results: reproduced a Nickel supernova lightcurve and calibrated Landolt standards to better than 0.05 mag with sub-pixel astrometry",
-        "Extended the framework to a second instrument, the CTIO 1.0-m; runs locally, in Docker, and on Slurm/HTCondor clusters"
+        "Lead developer of STIPS, adapting the LSST Science Pipelines to the Nickel and CTIO 1-m telescopes",
+        "Calibrated Landolt standards to ≤12 mmag in BVRI; astrometry matches Gaia DR3 to 14–48 mas",
+        "Reproduced published photometry of SNe 2023ixf and 2020wnt and recovered the HD 189733 b transit"
       ]
     },
     {
@@ -79,19 +81,31 @@
       "startDate": "2024-08",
       "endDate": "2025",
       "highlights": [
-        "Observational project led by Professor Claia Bryja monitoring cataclysmic variable stars; collected and reduced data from the Nickel Telescope at Lick Observatory"
+        "Observed cataclysmic variables, including AY Psc, in BVRI on the Lick 1-m Nickel Telescope",
+        "Wrote a Python reduction pipeline: bias, flat-field, astrometric, and photometric calibration"
       ],
       "url": "https://www.ccsf.edu/"
     },
     {
       "name": "Accenture Federal Services",
-      "position": "Full Stack AI/ML Engineer",
+      "position": "AI/ML Engineer",
+      "url": "https://www.accenture.com/us-en/industries/accenture-federal-services",
+      "startDate": "2023-06",
+      "endDate": "2026-05",
+      "highlights": [
+        "Led development for two small teams building production GenAI services, including a FastAPI backend with Azure OpenAI and vector search",
+        "Built over a dozen Python packages with unit, integration, and functional tests and CI/CD"
+      ]
+    },
+    {
+      "name": "Accenture Federal Services",
+      "position": "Data Scientist",
       "url": "https://www.accenture.com/us-en/industries/accenture-federal-services",
       "startDate": "2021-05",
-      "endDate": "2026-09",
+      "endDate": "2023-06",
       "highlights": [
-        "Lead developer for a small team, owning architecture and code quality on production systems",
-        "Built data and machine-learning pipelines over large geospatial datasets, including models trained on NASA satellite imagery"
+        "Trained survival models on >10M UNOS records (Apache Spark) to predict kidney-waitlist outcomes",
+        "Built ML models on NASA satellite imagery to predict wildfire, flood, and landslide risk"
       ]
     },
     {
@@ -102,9 +116,28 @@
       "startDate": "2019-05",
       "endDate": "2020-03",
       "highlights": [
-        "Built Python pipelines to retrieve and process archival Hubble Space Telescope data via MAST, finding 21 candidate dual-quasar systems",
-        "For senior thesis, modeled host galaxy morphologies of the three most promising candidates with GALFIT and TinyTim PSFs"
+        "Cross-matched >1M known quasars with archival HST imaging; built a pipeline to reduce MAST data",
+        "Ran surface-brightness contour analysis on thousands of images, identifying 21 dual-quasar candidates"
       ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Perityleae B.G.Baldwin (Asteroideae): A catalogue of natural history, taxonomy, and morphology of the rock daisy tribe",
+      "publisher": "Capitulum, 4(2), 31",
+      "releaseDate": "2026-09",
+      "url": "https://doi.org/10.53875/capitulum.04.2.02",
+      "summary": "Lichter-Marck, I., Powell, A. M., Wogan, K., Gause, D., et al."
+    },
+    {
+      "name": "MANNA: an MCP Architecture for NOIRLab, NRAO, and additional Archives",
+      "publisher": "In preparation for AJ",
+      "summary": "Gause, D., Nikutta, R., Mason, B., Plunkett, A., et al."
+    },
+    {
+      "name": "STIPS: Bringing the LSST Science Pipelines to 1-Meter-Class Telescopes",
+      "publisher": "In preparation for PASP",
+      "summary": "Gause, D. & Westfall, K."
     }
   ],
   "presentations": [
@@ -116,7 +149,7 @@
       "summary": "Gause, D., Telkamp, Z., Plunkett, A., Mason, B., Nikutta, R., Juneau, S., Zacharia Anil, A., Loomis, R., Offner, S., Durrett, G., Torrey, P., & Murphy, E."
     },
     {
-      "name": "The Small Telescope Image Processing Suite (STIPS): Bringing the LSST Stack to 1-m Telescopes",
+      "name": "The Small Telescope Image Processing Suite (STIPS): Bringing the LSST Science Pipelines to 1-m Telescopes",
       "publisher": "Poster, 248th Meeting of the American Astronomical Society, Pasadena, CA",
       "releaseDate": "2026-06",
       "url": "https://aas248-aas.ipostersessions.com/?s=03-D6-D6-6C-C5-AA-57-D4-12-33-1B-2F-65-D9-43-94",
@@ -144,8 +177,9 @@
       "startDate": "2024-03",
       "endDate": "2026-09",
       "highlights": [
-        "Built and deployed a Python package using machine-learning clustering for collections data",
-        "Sped up a processing application by 40% through parallelization"
+        "Built Python packages for herbarium data: DBSCAN clustering of specimens into collecting expeditions, and GBIF distribution maps for the rock daisy tribe (coauthor, Capitulum 2026)",
+        "Parallelized a citation-matching app (40% faster); set up Apptainer under Slurm on the HPC cluster",
+        "Trained models on EnMAP hyperspectral imagery to predict where tree species are absent"
       ]
     },
     {
