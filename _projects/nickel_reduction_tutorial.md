@@ -12,4 +12,4 @@ Raw telescope images need cleaning before they're useful for science. The camera
 
 I wrote a step-by-step notebook that walks through that process for the Nickel Telescope at Lick Observatory, using a real image of the galaxy NGC 3982. It explains each step and the terms behind it in plain language, for students and anyone new to observing.
 
-The tutorial builds on pipnick, a Nickel pipeline written by Allison Eto and Kyle Westfall. This work led into [STIPS](/projects/stips/).
+The tutorial builds on pipnick, a Nickel pipeline written by Allison Eto and Kyle Westfall. This work led into [STIPS](/projects/stips).
