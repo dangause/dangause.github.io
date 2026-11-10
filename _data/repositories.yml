@@ -4,12 +4,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - name: dangause/manna
+  - name: NSF-Simons-CosmicAI-Institute/manna
     language: Python
-    description: An MCP server that lets AI assistants query astronomical archives, including NOIRLab Astro Data Lab, NRAO/ALMA, CADC, ESO, and Gaia.
+    description: An MCP server that gives AI agents structured access to astronomical archives through IVOA standards, with curated notes for the Astro Data Lab, ALMA, ESO, CADC, and Gaia.
   - name: dangause/stips
     language: Python
-    description: The Small Telescope Image Processing Suite, an interface to the LSST Science Pipelines for 1-meter class telescopes.
+    description: The Small Telescope Image Processing Suite, which brings the LSST Science Pipelines to 1-meter-class telescopes.
   - name: dangause/hrs-botany
     language: Jupyter Notebook
     description: Predicting where tree species are absent using hyperspectral satellite imagery, for a California Academy of Sciences research project.

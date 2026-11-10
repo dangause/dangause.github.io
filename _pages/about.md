@@ -24,13 +24,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Daniel Gause is a post-baccalaureate researcher at the National Radio Astronomy Observatory (NRAO) in Charlottesville, Virginia. He studies protostellar outflows, the jets and winds that young stars launch as they form, by combining archival observations from ALMA, the VLA, and the Hubble Space Telescope.
+I'm a post-baccalaureate researcher at the National Radio Astronomy Observatory (NRAO) in Charlottesville, Virginia. I study protostellar outflows, the jets and winds that young stars launch as they form, by combining archival observations from ALMA, the VLA, and the Hubble Space Telescope.
 
-He first came to NRAO in the summer of 2026 as an intern with the NSF-Simons AI Institute for Cosmic Origins (CosmicAI), where he built [MANNA](/projects/manna/), an open-source tool that lets AI assistants search professional astronomy archives directly. He is also the lead developer of [STIPS](/projects/stips/), a software package built with UC Observatories that brings the Rubin Observatory's image processing software to 1-meter class telescopes, which he presented at the 248th meeting of the American Astronomical Society.
+I first came to NRAO in the summer of 2026 as an intern with the NSF-Simons AI Institute for Cosmic Origins (CosmicAI), where I built [MANNA](/projects/manna/), an open-source tool that lets AI agents search professional astronomy archives directly. I'm also the lead developer of [STIPS](/projects/stips/), a software package built with UC Observatories that brings the Rubin Observatory's image processing software to 1-meter-class telescopes, which I presented at the 248th meeting of the American Astronomical Society.
 
-Before moving into astronomy full time, Daniel spent five years at Accenture Federal Services building machine learning systems for federal agencies, and volunteered with the Scientific Computing Department at the California Academy of Sciences. He holds a BA in physics and mathematics from Middlebury College, where he searched Hubble archival data for dual quasars. He plans to apply to astronomy PhD programs.
+Before moving into astronomy full time, I spent five years at Accenture Federal Services building machine learning systems for federal agencies, and volunteered with the Scientific Computing Department at the California Academy of Sciences. I hold a BA in physics and mathematics from Middlebury College, where I searched Hubble archival data for dual quasars. I'm applying to astronomy PhD programs.

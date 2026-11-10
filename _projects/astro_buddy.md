@@ -20,7 +20,7 @@ Here are some images of what the web app looks like, and the quality of answer i
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog_posts/astro-buddy-05122025/astrobuddy-home.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/astro_buddy/astrobuddy-home.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -29,7 +29,7 @@ Here are some images of what the web app looks like, and the quality of answer i
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog_posts/astro-buddy-05122025/astrobuddy-answer.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/astro_buddy/astrobuddy-answer.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
