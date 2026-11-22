@@ -16,7 +16,7 @@ related_publications: false
 
 Telescopes of the 1-meter class are often called the workhorses of observational astronomy. They follow up supernovae and other transients, time exoplanet transits, monitor variable stars, and train students, and many hold archives that go back decades. Their role is growing as surveys like the Zwicky Transient Facility and Rubin Observatory's Legacy Survey of Space and Time (LSST) find far more transients than large telescopes can follow. Yet few of these telescopes have an actively maintained, public image-reduction pipeline. Most groups end up writing their own, which falls hardest on the users these telescopes serve best: community colleges, outreach programs, and small research groups.
 
-**STIPS**, the Small Telescope Image Processing Suite, is an open-source package that runs the LSST Science Pipelines on these telescopes. I am the lead developer, working with Kyle Westfall at UC Observatories, and a paper describing it is in preparation for the _Astronomical Journal_.
+**STIPS**, the Small Telescope Image Processing Suite, is an open-source package that runs the LSST Science Pipelines on these telescopes. I am the lead developer, working with Kyle Westfall at UC Observatories, and a paper describing it is submitted to the _Astronomical Journal_ and under review.
 
 #### Borrowing a survey's software
 
@@ -120,7 +120,7 @@ STIPS currently supports two instruments: the Direct Imaging Camera on the 1-m N
 
 I first presented STIPS at the 248th meeting of the American Astronomical Society in Pasadena in June 2026.
 
-- Paper: Gause, D. & Westfall, K. B., _STIPS: Bringing the LSST Science Pipelines to 1-Meter-Class Telescopes_, in preparation for AJ
+- Paper: Gause, D. & Westfall, K. B., _STIPS: the Small Telescope Image Processing Suite_, submitted to AJ (under review)
 - Code: [github.com/dangause/stips](https://github.com/dangause/stips) (BSD 3-Clause)
 - Documentation: [stips-docs.readthedocs.io](https://stips-docs.readthedocs.io)
 - Poster: [AAS 248 iPoster](https://aas248-aas.ipostersessions.com/?s=03-D6-D6-6C-C5-AA-57-D4-12-33-1B-2F-65-D9-43-94)

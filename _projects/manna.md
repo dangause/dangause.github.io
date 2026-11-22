@@ -49,12 +49,12 @@ To find out, we built an evaluation suite of archive tasks and ran each one with
 
 #### My role
 
-I started MANNA in the summer of 2026 as an intern with the NSF-Simons AI Institute for Cosmic Origins (CosmicAI) at NRAO, on the STABLE team (Summer Team for Astronomical Benchmarking and LLM Engineering), and presented it at the CosmicAI Cosmic Horizons conference in Charlottesville that July. I have continued developing it as a post-baccalaureate researcher at NRAO. The code lives in the CosmicAI organization on GitHub, is distributed on PyPI as `manna-mcp`, and comes with documentation, tutorial notebooks, a test suite, and the evaluation framework. I am first author on a paper describing MANNA and its evaluation, in preparation for the _Astronomical Journal_, with Robert Nikutta, Brian Mason, Adele Plunkett, Ryan Loomis, Stephanie Juneau, Stella Offner, Zoie Telkamp, Adam Anil, and Eric Murphy.
+I started MANNA in the summer of 2026 as an intern with the NSF-Simons AI Institute for Cosmic Origins (CosmicAI) at NRAO, on the STABLE team (Summer Team for Astronomical Benchmarking and LLM Engineering), and presented it at the CosmicAI Cosmic Horizons conference in Charlottesville that July. I have continued developing it as a post-baccalaureate researcher at NRAO. The code lives in the CosmicAI organization on GitHub, is distributed on PyPI as `manna-mcp`, and comes with documentation, tutorial notebooks, a test suite, and the evaluation framework. I am first author on a paper describing MANNA and its evaluation, submitted to the _Astronomical Journal_ and under review, with Robert Nikutta, Brian Mason, Adele Plunkett, Ryan Loomis, Stephanie Juneau, Stella Offner, Zoie Telkamp, Adam Anil, and Eric Murphy.
 
 - Code: [github.com/NSF-Simons-CosmicAI-Institute/manna](https://github.com/NSF-Simons-CosmicAI-Institute/manna)
 - Package: [pypi.org/project/manna-mcp](https://pypi.org/project/manna-mcp/)
 - Documentation: [manna.readthedocs.io](https://manna.readthedocs.io/)
-- Paper: Gause, D., Nikutta, R., Mason, B., Plunkett, A., et al., _MANNA: An MCP Architecture for NOIRLab, NRAO, and Additional Archives_, in preparation for AJ
+- Paper: Gause, D., Nikutta, R., Mason, B., Plunkett, A., et al., _MANNA: An MCP Architecture for NOIRLab, NRAO, and Additional Archives_, submitted to AJ (under review)
 - Poster: [Cosmic Horizons poster (PDF)](/assets/pdf/gause_manna_poster_cosmic_horizons_2026.pdf)
 - Talk: [Cosmic Horizons presentation](https://www.youtube.com/watch?v=qa7x-6zJRRw)
 - Write-up: [CosmicAI STABLE highlights](https://cosmicai.org/news/stable)
